@@ -34,14 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -50,7 +50,7 @@
       <recent name="com.bridgelabz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoodAnalyserTest.givenMessage_WhenNotSad_ShouldReturnHappy">
+  <component name="RunManager" selected="JUnit.MoodAnalyserTest.givenNullMood_ShouldReturnHappy">
     <configuration name="MoodAnalyserTest.givenMessage_WhenNotSad_ShouldReturnHappy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bridgelabz_Day21" />
       <extension name="coverage">
@@ -83,10 +83,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoodAnalyserTest.givenNullMood_ShouldReturnHappy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bridgelabz_Day21" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.MoodAnalyserTest" />
+      <option name="METHOD_NAME" value="givenNullMood_ShouldReturnHappy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MoodAnalyserTest.givenMessage_WhenNotSad_ShouldReturnHappy" />
+        <item itemvalue="JUnit.MoodAnalyserTest.givenNullMood_ShouldReturnHappy" />
         <item itemvalue="JUnit.MoodAnalyserTest.givenMessage_WhenSad_ShouldReturnSad" />
+        <item itemvalue="JUnit.MoodAnalyserTest.givenMessage_WhenNotSad_ShouldReturnHappy" />
       </list>
     </recent_temporary>
   </component>
