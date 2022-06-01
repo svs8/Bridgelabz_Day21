@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,7 +50,7 @@
       <recent name="com.bridgelabz" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoodAnalyserTest.givenNullMood_ShouldReturnHappy">
+  <component name="RunManager" selected="JUnit.MoodAnalyserTest.givenNullMood_ShouldReturnCustomException">
     <configuration name="MoodAnalyserTest.givenMessage_WhenNotSad_ShouldReturnHappy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bridgelabz_Day21" />
       <extension name="coverage">
@@ -83,6 +83,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoodAnalyserTest.givenNullMood_ShouldReturnCustomException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bridgelabz_Day21" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bridgelabz" />
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.MoodAnalyserTest" />
+      <option name="METHOD_NAME" value="givenNullMood_ShouldReturnCustomException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MoodAnalyserTest.givenNullMood_ShouldReturnHappy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bridgelabz_Day21" />
       <extension name="coverage">
@@ -101,9 +117,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoodAnalyserTest.givenNullMood_ShouldReturnCustomException" />
         <item itemvalue="JUnit.MoodAnalyserTest.givenNullMood_ShouldReturnHappy" />
-        <item itemvalue="JUnit.MoodAnalyserTest.givenMessage_WhenSad_ShouldReturnSad" />
         <item itemvalue="JUnit.MoodAnalyserTest.givenMessage_WhenNotSad_ShouldReturnHappy" />
+        <item itemvalue="JUnit.MoodAnalyserTest.givenMessage_WhenSad_ShouldReturnSad" />
       </list>
     </recent_temporary>
   </component>
@@ -128,5 +145,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/bridgelabz/MoodAnalyserTest.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/bridgelabz/MoodAnalyserTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/bridgelabz/MoodAnalyserTest.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -9,7 +9,7 @@ public class MoodAnalyser {
     }
 
 
-    public String analyseMood(){
+    public String analyseMood() {
         try {
             if (message.contains("sad")) {
                 return "sad";
@@ -18,6 +18,19 @@ public class MoodAnalyser {
             }
         }catch(NullPointerException e){
             return "Happy";
+        }
+
+    }
+
+    public String analysemoodexception() throws MoodAnalysisException {
+        try {
+            if (message.contains("sad")) {
+                return "sad";
+            } else {
+                return "Happy";
+            }
+        }catch(NullPointerException e){
+            throw new MoodAnalysisException("Null PointerException occurred please enter thr value other than null");
         }
     }
 }

@@ -22,11 +22,24 @@ class MoodAnalyserTest {
         Assert.assertEquals("happy",mood);
     }
 
+
     @org.junit.jupiter.api.Test
     public void givenNullMood_ShouldReturnHappy() {
         MoodAnalyser moodanalyser = new MoodAnalyser(null);
-        String mood= moodanalyser.analyseMood();
+        String mood = moodanalyser.analyseMood();
         Assert.assertEquals("Happy", mood);
+    }
+
+    @org.junit.jupiter.api.Test
+    public void givenNullMood_ShouldReturnCustomException() {
+        MoodAnalyser moodanalyser = new MoodAnalyser(null);
+        String mood= null;
+        try {
+            mood = moodanalyser.analysemoodexception();
+//            Assert.assertEquals("Happy", mood);
+        } catch (MoodAnalysisException e) {
+            e.printStackTrace();
+        }
 
     }
 
